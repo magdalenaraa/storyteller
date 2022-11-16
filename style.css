@@ -173,7 +173,7 @@ h3 {
     background-image: url(./data/about.png);
     background-position: center;
     background-size: cover;
-    min-height: 461px;
+    height: 461px; width: 100%;
     position: relative; 
 }
 
@@ -183,28 +183,60 @@ h3 {
     margin: 0 auto;
     display: flex;
     justify-content: center;
+    align-items: center;
+    padding-top: 50px;
 }
 
 .logo-wrapper .logo-lagi {
     max-width: 120px;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+    margin-top: 60px;
 }
 
 .logo-wrapper .logo-lagi img {  
-    width: 400%;
-    align-items: center;
+    width: 300%;
 }
 
 .about {
-    background-color: #fff6ec;
+    background-image: url(./data/about-box.png);
     min-height: 633px; max-width: 1024px;
     background-position: center;
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    margin-top: 100px
+    width: 90%;
+    padding: 80px;
 }
 
 .about .island {
     position: absolute;
-    top: -112px; right: -37px;
+    top: -124px; right: -37px;
+}
+
+.about p {
+    line-height: 27px;
+    margin-top: 10px;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.about blockquote {
+    margin: 30px 0;
+    padding-left: 30px;
+    border-left: #d9c1a4 solid 6px;
+}
+
+#campaigns {
+    margin: 100px auto 0;
+    max-width: 1280px;
+    width: 90%;
+}
+
+#campaigns h3 {
+    text-align: center;
+    position: relative;
+    padding-top: 600px;
+    margin-top: -60px;
 }
