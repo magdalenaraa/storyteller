@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>StoryTeller</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
@@ -33,33 +33,91 @@
             </div>
         </div>
     </div>
-    <div id="mid">
-        <div class="logo-wrapper">
-            <div class="logo-lagi">
-                <img src="./data/logo-lagi.png" alt="storyteller">
+    <div class="mid">
+        <div id="about">
+            <div class="logo-wrapper">
+                <div class="logo-lagi">
+                    <img src="./data/logo-lagi.png" alt="storyteller">
+                </div>
             </div>
-        </div>
-        <div class="about">
-            <h3>Welcome Adventurer!</h3>
-            <p>StoryTeller is a grimoire of of TTRPG campaigns. “But what's a TTRPG ?” you might ask, well here's a whole paragraph we took from wikipedia:</p>
-            <blockquote>
+            <div class="about-paragraph">
+                <h3>Welcome Adventurer!</h3>
+                <p>StoryTeller is a grimoire of of TTRPG campaigns. “But what's a TTRPG ?” you might ask, well here's a whole paragraph we took from wikipedia:</p>
+                <blockquote>
+                    <p>
+                        A <strong>tabletop role-playing game</strong> (typically abbreviated as<strong>TRPG</strong> or<strong>TTRPG</strong>), also known as a <strong>pen-and-paper role-playing game</strong>, is a form of role-playing game (RPG) in which the participants describe their characters' actions through speech. Participants determine the actions of their characters based on their characterization, and the actions succeed or fail according to a set formal system of rules and guidelines. Within the rules, players have the freedom to improvise; their choices shape the direction and outcome of the game.
+                    </p>
+                    <p>The terms pen-and-paper and tabletop are generally only used to distinguish this format of RPG from other formats, since neither pen and paper nor a table are strictly necessary.</p>
+                </blockquote>
                 <p>
-                    A <strong>tabletop role-playing game</strong> (typically abbreviated as<strong>TRPG</strong> or<strong>TTRPG</strong>), also known as a <strong>pen-and-paper role-playing game</strong>, is a form of role-playing game (RPG) in which the participants describe their characters' actions through speech. Participants determine the actions of their characters based on their characterization, and the actions succeed or fail according to a set formal system of rules and guidelines. Within the rules, players have the freedom to improvise; their choices shape the direction and outcome of the game.
-                </p>
-                <p>The terms pen-and-paper and tabletop are generally only used to distinguish this format of RPG from other formats, since neither pen and paper nor a table are strictly necessary.</p>
-            </blockquote>
-            <p>
                 Dungeons & Dragons? Pathfinder? The Call of Cthulhu? We have it all! Wanna be a pirate and plunder bounties? Wizards that keep casting fireballs even though it’s a close quarter combat then died from a 1d4 damage? A rogue with traumatic childhood or a bard who keep trying to seduce the dragon? Go browse the whole compendium and start your journey!
-            </p>
-            <div class="island">
-                <img src="./data/floating-island.png" alt="island">
+                </p>
+                <div class="island">
+                    <img src="./data/floating-island.png" alt class="floating-island">
+                </div>
             </div>
         </div>
     </div>
     <div id="campaigns">
-        <h3>⚔️Campaigns⚔️</h3>
-        <div class="swipe-wrapper">
-            
+        <h3>&#9876;&#65039;Campaigns&#9876;&#65039;</h3>
+        <div class="swiper campaign-slide">
+            <div class="swiper-wrapper">
+                <div id="arkemyr" class="swiper-slide slide-card">
+                    <div class="gradient"></div>
+                    <a href="">
+                        <span class="campaign-logo">
+                            <img src="./data/content-logo/arkemyr-logo.png" alt="The Lost Grimoire of Arkemyr">
+                        </span>
+                    </a>
+                </div>
+                <div id="bvale" class="swiper-slide slide-card">
+                    <div class="gradient"></div>
+                    <a href="">
+                        <span class="campaign-logo">
+                            <img src="./data/content-logo/bvale-logo.jpg" alt="Burning Vale">
+                        </span>
+                    </a>
+                </div>
+                <div id="leviathan" class="swiper-slide slide-card">
+                    <div class="gradient"></div>
+                    <a href="">
+                        <span class="campaign-logo">
+                            <img src="./data/content-logo/leviathan-logo.png" alt="Leviathan Odyssey">
+                        </span>
+                    </a>
+                </div>
+                <div id="dead-alive" class="swiper-slide slide-card">
+                    <div class="gradient"></div>
+                    <a href="">
+                        <span class="campaign-logo">
+                            <img src="./data/content-logo/dead-logo.png" alt="Dead Alive">
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-nav">
+            <div class="slide-prev">
+                <i class="ri-arrow-left-line"></i>
+            </div>
+            <div class="slide-next">
+                <i class="ri-arrow-right-line"></i>
+            </div>
+        </div>
+    </div>
+    <div id="subscription">
+        <div class="newsletter">
+            <h3>Get regular updates from us!</h3>
+            <p>Enter your email below to get awesome updates about upcoming events, new campaingns and more!</p>
+            <form action="">
+                <input type="text" placeholder="Email Address">
+                <button>join</button>
+            </form>
+        </div>
+    </div>
+    <div id="attributions">
+        <div class="newsletter">
+            <p>Attributions: assets by <a href="https://www.freepik.com/author/dgim-studio">dgim-studio</a>, <a href="https://www.freepik.com/author/upklyak">upklyak</a>, Dragon icons created by <a href="https://www.flaticon.com/free-icons/dragon">Freepik - Flaticon</a>
         </div>
     </div>
 </body>
