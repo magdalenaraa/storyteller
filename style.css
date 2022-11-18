@@ -41,14 +41,19 @@ h3 {
     min-height: 900px;
     position: relative;
     display: flex;
-    justify-content: flex-end;
+    justify-content: end;
     align-items: center;
 }
 
 .nav {
     width: 100%;
-    position: absolute;
+    position: fixed;
     top: 0;
+    z-index: 10;
+    transition: all 0.3s ease-in-out;
+}
+.nav-scrolled {
+    background-color: #220d5ae1;
 }
 
 .nav-wrapper {
@@ -57,11 +62,12 @@ h3 {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    padding: 15px 0;
+    margin: 0 auto;
+    padding-bottom: 5px;
 }
 
 .nav-wrapper .logo {
-    max-width: 110px;
+    max-width: 115px;
 }
 
 .nav-wrapper .logo img {
@@ -69,11 +75,12 @@ h3 {
     margin-top: 20px;
 }
 
-.navbar {
+.nav-wrapper .navbar {
     display: flex;
+    align-items: center;
 }
 
-.navbar a {
+.nav-wrapper .navbar a {
     background-image: linear-gradient(
       to right,
       #54b3d6,
@@ -93,7 +100,7 @@ h3 {
     transition: all 0.3s ease-in-out;
 }
   
-.navbar a:before{
+.nav-wrapper .navbar a:before{
     content: '';
     background: #54b3d6;
     display: block;
@@ -105,11 +112,11 @@ h3 {
     transition: all 0.3s ease-in-out;
 }
   
-.navbar a:hover {
+.nav-wrapper .navbar a:hover {
    background-position: 0;
 }
   
-.navbar a:hover::before{
+.nav-wrapper .navbar a:hover::before{
     width: 100%;
 }
 
@@ -377,6 +384,12 @@ h3 {
     margin-right: -2px;
 }
 
+.swiper-nav .slide-prev .slide-next p {
+    display: inline-block;
+    margin: 10px;
+    color: #500c7a;
+}
+
 #subscription {
     text-align: center;
     padding: 55px;
@@ -462,15 +475,21 @@ h3 {
 
 #attributions a {
     text-decoration:none;
-    border-bottom: 1px solid #ef8b80;
-    box-shadow: inset 0 -4px 0 #ef8b80;
+    border-bottom: 1px solid #f5d57c;
+    box-shadow: inset 0 -4px 0 #f5d57c;
     color: inherit;
     transition: background 0.1s cubic-bezier(.33,.66,.66,1);
 }
   
 #attributions a:hover {
-    background: #ef8b80;
+    background: #f5d57c;
     color: #500c7a;
+}
+
+@media only screen and (max-width: 600px) {
+    .cta {
+        width: 90%;
+    }
 }
 
 @media only screen and (max-width: 425px) {
@@ -480,14 +499,15 @@ h3 {
     h3 {
         font-size: 26px;
     }
-    .nav-wrapper {
-        width: 70%;
+    #top {
+        padding: 0;
     }
     .nav-wrapper .logo {
         max-width: 60px;
+        margin-top: 10px;
     }
-    .navbar a {
-        font-size: 16px;
+    .nav-wrapper .navbar a {
+        font-size: 14px;
         padding: 10px;
     }
     .floating-island {
@@ -510,6 +530,17 @@ h3 {
         margin: 10px 0;
         border-left: none;
         border-top:#d9c1a4 solid 4px;
+    }
+    .newsletter p {
+        font-size: 14px;
+        margin: 15px 0;
+    }
+    .newsletter form {
+        display: block;
+    }
+    .newsletter form button {
+        margin: 10px 0;
+        padding: 10px 30px;
     }
     #attributions p {
         font-size: 14px;
