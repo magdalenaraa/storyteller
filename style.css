@@ -226,7 +226,17 @@ h3 {
 .about-paragraph .island {
     position: absolute;
     top: -124px; right: -37px;
+    animation: float 2.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) infinite alternate;
 }
+
+@keyframes float{
+    0%{
+      transform: translateZ(20px);
+    }
+    100%{
+      transform: translateY(-25px) translateX(-10px) translateZ(30px);
+    }
+  }
 
 .about-paragraph .dices img {  
     width: 300px;
