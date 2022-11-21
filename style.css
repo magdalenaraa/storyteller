@@ -515,6 +515,9 @@ h3 {
         border-left: none;
         border-top:#d9c1a4 solid 4px;
     }
+    #dead-alive .campaign-logo {
+        padding-left: 10px;
+    }
 }
 
 @media only screen and (max-width: 425px) {
@@ -561,6 +564,9 @@ h3 {
     }
     .campaign-slide {
         margin-top: 20px;
+    }
+    #dead-alive .campaign-logo {
+        padding-left: 30px;
     }
     .newsletter p {
         font-size: 14px;
