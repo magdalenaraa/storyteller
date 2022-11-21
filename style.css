@@ -351,6 +351,7 @@ h3 {
 }
 #dead-alive .campaign-logo {
     max-width: 258px;
+    align-items: center;
 }
 
 .slide-card .campaign-logo img {
@@ -389,6 +390,7 @@ h3 {
     text-decoration: none;
     padding: 8px 16px;
     color: #500c7a;
+    height: 100%;
 }
 
 
