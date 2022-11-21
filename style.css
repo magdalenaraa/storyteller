@@ -533,7 +533,7 @@ h3 {
         font-size: 14px;
     }
     h3 {
-        font-size: 26px;
+        font-size: 30px;
     }
     #top {
         padding: 0;
@@ -570,8 +570,8 @@ h3 {
     .dices {
         display: none;
     }
-    #campaigns {
-        margin-top: 50px;
+    #campaigns h3 {
+        padding-top: 550px;
     }
     .campaign-slide {
         margin-top: 20px;
