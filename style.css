@@ -214,9 +214,8 @@ h3 {
 }
 
 .about-paragraph {
-    background-image: url(./data/about-box.png);
+    background-color: #fff6ec;
     min-height: 633px; max-width: 1024px;
-    background-position: center;
     margin-left: auto;
     margin-right: auto;
     position: relative;
@@ -227,6 +226,18 @@ h3 {
 .about-paragraph .island {
     position: absolute;
     top: -124px; right: -37px;
+}
+
+.about-paragraph .dices img {  
+    width: 300px;
+}
+
+.about-paragraph .dices {
+    position: absolute;
+    bottom: -80px;
+    right: 37px;
+    opacity: 10%;
+    
 }
 
 .about-paragraph p {
@@ -500,9 +511,6 @@ h3 {
     #about {
         padding-top: 50px;
     }
-    .about-paragraph {
-        padding: 30px;
-    }
     .about-paragraph p {
         font-size: 14px;
         line-height: 18px;
@@ -558,6 +566,9 @@ h3 {
         margin: 10px 0;
         border-left: none;
         border-top:#d9c1a4 solid 4px;
+    }
+    .dices {
+        display: none;
     }
     #campaigns {
         margin-top: 50px;
