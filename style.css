@@ -341,7 +341,7 @@ h3 {
     background-size: cover;
 }
 #leviathan .campaign-logo {
-    max-width: 331px;
+    max-width: 400px;
 }
 
 #dead-alive {
@@ -350,8 +350,8 @@ h3 {
     background-size: cover;
 }
 #dead-alive .campaign-logo {
-    max-width: 258px;
-    align-items: center;
+    max-width: 350px;
+    padding-left: 60px;
 }
 
 .slide-card .campaign-logo img {
@@ -555,6 +555,12 @@ h3 {
         margin: 10px 0;
         border-left: none;
         border-top:#d9c1a4 solid 4px;
+    }
+    #campaigns {
+        margin-top: 50px;
+    }
+    .campaign-slide {
+        margin-top: 20px;
     }
     .newsletter p {
         font-size: 14px;
