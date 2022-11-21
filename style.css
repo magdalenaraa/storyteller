@@ -226,7 +226,7 @@ h3 {
 .about-paragraph .island {
     position: absolute;
     top: -124px; right: -37px;
-    animation: float 2.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) infinite alternate;
+    animation: float 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) infinite alternate;
 }
 
 @keyframes float{
