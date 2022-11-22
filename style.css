@@ -550,7 +550,6 @@ h3 {
     }
     .nav-wrapper .logo {
         max-width: 60px;
-        margin-top: 10px;
     }
     .nav-wrapper .navbar a {
         font-size: 14px;
@@ -612,5 +611,20 @@ h3 {
     }
     #dead-alive .campaign-logo {
         padding-left: 10px;
+    }
+    .nav-wrapper .logo {
+        max-width: 50px;
+    }
+    .buttons .explore {
+        padding: 15px 35px;
+    }
+    .buttons .learn {
+        font-size: 16px;
+    }
+    .cta h1 {
+        font-size: 40px;
+    }
+    .cta p {
+        font-size: 14px;
     }
 }
