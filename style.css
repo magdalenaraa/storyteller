@@ -605,4 +605,12 @@ h3 {
         text-align: center;
     }
 }
-    
+
+@media only screen and (max-width: 375px) {
+    #campaigns h3 {
+        padding-top: 650px;
+    }
+    #dead-alive .campaign-logo {
+        padding-left: 10px;
+    }
+}
